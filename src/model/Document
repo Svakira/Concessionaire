@@ -1,0 +1,7 @@
+package model;
+public abstract class Document {
+    private double price;
+    private int [][] docs;
+    private String docNum;
+    private LocalDate date;
+}
