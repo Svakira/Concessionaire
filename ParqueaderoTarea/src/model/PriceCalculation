@@ -1,0 +1,15 @@
+package model;
+public interface PriceCalculation{
+
+    final int soatCost = 500000;
+    final double discountUsed = 0.10;
+	final double electic = 0.20;
+	final double hybrid = 0.15;
+	final double motoAdditional = 0.04;
+	final double motoDiscount = 0.02;
+	
+	public abstract double calculatePrice();
+	
+	
+
+}
